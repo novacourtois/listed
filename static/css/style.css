@@ -1,0 +1,36 @@
+.task-title {
+	display:inline;
+}
+
+.task-checkbox {
+	display:inline-block;
+}
+
+li {
+	list-style-type: none;
+}
+
+.task-list > li {
+	position: relative;
+	padding: 10px 5px;
+	border-bottom: 1px dashed #eaeaea;
+}
+
+.navbar {
+	background-color:#e74c3c;
+	color: #fff;
+	border-bottom: 1px dashed #eaeaea;
+}
+
+.navbar a {
+	color:#fff;
+}
+.nav a:hover {
+	color:#fff;
+	
+}
+
+.navbar-nav>li>a:hover {
+	text-decoration: underline;
+	background-color: #e74c3c;
+}
